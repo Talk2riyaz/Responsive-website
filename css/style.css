@@ -1,0 +1,135 @@
+/* *** body reset *** */
+
+body {
+  overflow-x: hidden;
+  color: #616971;
+}
+
+/************ -- Top bar -- *************/
+.top-bar {
+  background: #7aaec4;
+  height: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.top-bar p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/******************* -- navbar -- ***************/
+
+.navbar-brand h3 {
+  color: dimgray !important;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.nav-item {
+  padding: 0.3rem;
+}
+
+.nav-link {
+    color: #5b5555 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #7aaec4 !important;
+}
+/* ------------------- end navbar ------------------- */
+
+/* ************* carousel ********** */
+.carousel-hight img{
+    height: 75vh;
+}
+
+.carousel-inner {
+  max-height: 38rem !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%); 
+}
+
+.bg-custom {
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+  border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: 400;  
+}
+
+.btns {
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.border-primary {
+   border: solid;
+}
+
+
+/* ******** backgroud image ********* */
+
+.bg-muted {
+  background: url('../img//blog4.jpg');
+  height: 40vh;
+  width: 100%;
+  
+
+}
+
+/* ***** footer **** */
+footer p, footer a {
+   color: white;
+   text-decoration: none;
+
+}
+
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+}
+
+ul.social li {
+  margin: 0 auto;
+ 
+}
+
+.fa {
+  font-size: 2.3rem;
+}
+
+.fb {
+  color: #4267B2;
+}
+
+.yt {
+  color: crimson;
+}
+
+.tt {
+  color: #3498DB;
+}
+
+.ig {
+  color: #8a3ab9;
+}
